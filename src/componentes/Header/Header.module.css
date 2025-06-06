@@ -1,0 +1,30 @@
+@import './Header.module.css';
+
+
+
+
+img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Banner{
+    width: 100%;
+    height: 100%;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Banner h1{
+    color: var(--text-color-p);
+    font-size: 2.4rem;
+    font-family:Helvetica ;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.Banner span{
+    color: var(--text-lnk);
+}

@@ -1,0 +1,130 @@
+@import '../../../vars.css';
+
+h1,
+h2,
+h3,
+p,
+tr {
+    color: #fcfcfc;
+}
+
+.DigitalAll {
+    width: 100%;
+    height: 100%;
+    padding: inherit;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.HeaderTop {
+    width: 100%;
+    padding: inherit;
+    margin-bottom: 6rem;
+
+}
+
+.digitalTitle {
+
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    font-family: Helvetica;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.digitalP {
+
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.4rem 0;
+    font-family: Arial;
+    letter-spacing: normal;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.container h2 {
+
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    font-family: Helvetica;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.container p {
+    font-size: 1rem;
+    text-align: center;
+    line-height: normal;
+    font-weight: lighter;
+
+}
+
+.Card_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 4rem;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    padding: 0 1rem 1rem 1rem;
+    border-radius: 6px;
+
+
+}
+
+.cards img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.cards_content {
+    background-color: #fcfcfc;
+    width: 100%;
+    box-shadow: #3f3f3f2f 0px 6px 9px 2px;
+
+
+}
+
+.cards_content h3 {
+    padding: 1rem;
+    color: var(--text-color-p);
+    font-family: Helvetica;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cards_content p {
+    color: var(--text-color-p);
+    text-align: left;
+    padding: 0 1rem 1rem;
+    letter-spacing: -0.1px;
+}
+
+.highlight {
+    width: 100%;
+    height: 100%;
+    min-height: 18vh;
+    background-color: red;
+    margin-top: 4rem;
+    padding: 10px;
+    margin-bottom: 4rem;
+}
