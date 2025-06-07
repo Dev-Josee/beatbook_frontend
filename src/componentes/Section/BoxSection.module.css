@@ -1,13 +1,21 @@
 @import './BoxSection.module.css';
 
-.BoxSection{
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: Helvetica;
+}
+
+.BoxSection {
     width: 100%;
     height: 100%;
     display: flex;
-    
+
 }
 
-.Box_container{
+.Box_container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,35 +23,48 @@
     margin-bottom: 3rem;
 }
 
-.Box_container h2{
+.Box_container h2 {
     color: var(--text-color-p);
-    font-family: Georgia;
+    padding: 1rem;
+    line-height: 1.1;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
-.Box_container span{
+.Box_container span {
     color: var(--text-lnk);
 }
 
-.Boxcards{
+.ImgSection {
     width: 100%;
-    padding: 2rem 0 ;
-    margin-bottom: 20px;
-    
+    padding: 1.1rem;
 }
 
-.Cards{
+.BannerPlataformas {
+    width: 100%;
+    padding: 1.1rem;
+    border-radius: 4px;
+    box-shadow: #2900007a 0px 14px 20px;
+}
+
+.BoxCards {
+    width: 100%;
+    padding: 1.1rem;
+    display: flex;
+}
+
+.Cards {
     width: 100%;
     height: 40vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2.5rem;
 }
 
-.Cards a{
-    border: 1px solid red;
+.Cards a {
+    border: 1px solid #e82020;
     border-radius: 6px;
     padding: 1.4rem;
     display: flex;
@@ -51,54 +72,57 @@
     text-decoration: none;
     color: var(--text-lnk);
     font-size: 1.2rem;
-    font-family:Arial, Helvetica ;
-    transition: all 0.4s ease;
-    
-    
+    font-family: Arial, Helvetica;
+    transition: transform 0.4s ease-in-out;
+
+
 }
 
-.Cards a:hover{
+.Cards a:hover {
     color: var(--text-color-p);
     background-color: var(--text-lnk);
+    transform: translateY(-4px);
 }
 
-.BoxText{
+.BoxText {
     width: 100%;
-    padding: 2rem 0 ;
+    padding: 2rem 0;
     color: var(--text-color-p);
     text-align: center;
     line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.SongInfo{
+.SongInfo {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 3rem 0;
 }
 
-.SongInfo h3{
+.SongInfo h3 {
     color: var(--text-color-p);
     text-align: center;
     font-family: Helvetica;
     text-transform: uppercase;
 }
 
-.SongText{
+.SongText {
     width: 100%;
     padding: 4rem 0;
     text-align: left;
     color: var(--text-color-p);
 }
-.SongText p{
-    width: 100%;
-    line-height: 1.4rem;
-    font-size: 0.8rem;
+
+.SongText p {
+    text-align: justify;
+    padding: 0.4rem 0.4rem;
+    line-height: 1.6rem;
+    font-size: 0.9rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.SongText a{
+.SongText a {
     display: flex;
     margin-top: 25px;
     text-decoration: none;
